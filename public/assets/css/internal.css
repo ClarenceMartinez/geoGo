@@ -1,0 +1,4 @@
+.mention{color: #0077b5; font-weight: bold;}
+.note-item{margin-bottom: 15px; padding: 5px; padding-bottom: 10px; }
+.note-item:hover{ background: #f8ce83; }
+.note-item p{margin-bottom: 0px}

@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "1.png",
+      "name": "Jordan Stevenson",
+      "email": "susanna.Lind57@gmail.com",
+      "username": "amiccoo",
+      "phone": "999999",
+      "role": "Admin",
+      "status": 1,
+      "actions" :"*"
+    },
+    {
+      "id": 2,
+      "image": "2.png",
+      "name": "Benedetto Rossiter",
+      "email": "estelle.Bailey10@gmail.com",
+      "username": "brossiter15",
+      "phone": "999999",
+      "role": "Editor",
+      "status": 2,
+      "actions" :"*"
+    },
+    {
+      "id": 3,
+      "image": "3.png",
+      "name": "Bentlee Emblin",
+      "email": "milo86@hotmail.com",
+      "username": "bemblinf",
+      "phone": "999999",
+      "role": "Author",
+      "status": 2,
+      "actions" :"*"
+    },
+    {
+      "id": 4,
+      "image": "",
+      "name": "Bertha Biner",
+      "email": "lonnie35@hotmail.com",
+      "username": "bbinerh",
+      "phone": "999999",
+      "role": "Editor",
+      "status": 1,
+      "actions" :"*"
+    },
+    {
+      "id": 5,
+      "image": "5.png",
+      "name": "Beverlie Krabbe",
+      "email": "ahmad_Collins@yahoo.com",
+      "username": "bkrabbe1d",
+      "phone": "999999",
+      "role": "Maintainer",
+      "status": 3,
+      "actions" :"*"
+    },
+    {
+      "id": 6,
+      "image": "",
+      "name": "Bradan Rosebotham",
+      "email": "tillman.Gleason68@hotmail.com",
+      "username": "brosebothamz",
+      "phone": "999999",
+      "role": "Editor",
+      "status": 1,
+      "actions" :"*"
+    },
+    {
+      "id": 7,
+      "image": "7.png",
+      "name": "Bree Kilday",
+      "email": "otho21@gmail.com",
+      "username": "bkildayr",
+      "phone": "999999",
+      "role": "Subscriber",
+      "status": 2,
+      "actions" :"*"
+    }
+  ]
+}
