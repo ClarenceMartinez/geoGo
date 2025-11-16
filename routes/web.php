@@ -3,6 +3,10 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\BranchController;
+use App\Http\Controllers\EmployeeController;
+use App\Http\Controllers\ScheduleController;
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -19,6 +23,12 @@ Route::middleware('auth')->group(function () {
     
 
     Route::resource('companies', CompanyController::class);
+
+    // CRUD de Branches POR Empresa
+    Route::resource('companies.branches', BranchController::class)->except(['show']); // opcional, no lo necesitamos
+    Route::resource('companies.branches.users', EmployeeController::class)->except(['show']);
+    Route::resource('companies.branches.schedules', ScheduleController::class)->except(['show']);
+
 
 });
 
